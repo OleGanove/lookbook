@@ -1,28 +1,15 @@
-== README
+== Facebook Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a facebook clone app which has got several functions:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* There is a user's authentication system using Devise
+* Users can send friend requests to other users
+* A User must accept the friend request to become friends
+* The friend request is showing up in the notification section of a user's navigation bar
+* Users can create posts, like posts and comment on posts
+* A Post is displayed with the post content, author, comments, and likes.
+* There is a feed containing all of the user's posts and all of his/her friends' posts
+* Users can create a profile with a photo
+* Profile page contains the profile information, photo and posts
+* The signin should use Omniauth to allow login with Facebook
+* A mailer is sending a Welcome email 
